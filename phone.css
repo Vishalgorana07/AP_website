@@ -1,0 +1,106 @@
+.home-section{
+    /* display: none; */
+    display: grid !important;
+    /* flex-direction: column; */
+    grid-template-rows: 2fr 1fr !important;
+    height: 900px;
+}
+
+@media (max-width:786px) {
+    .home-section{
+        height: 700px;
+    }
+}
+
+@media (max-width:564px) {
+    .home-section{
+        height: 600px;
+    }
+
+    .vishal-2 h1{
+        font-size: 50px;
+        color: aliceblue;
+    }
+    
+    .vishal-2 p{
+        font-size: 14px;
+        color: aliceblue;
+    }
+}
+
+@media (max-width:469px) {
+    .home-section{
+        height: 500px;
+    }
+
+    .vishal-2 h1{
+        font-size: 40px;
+        color: aliceblue;
+    }
+    
+    .vishal-2 p{
+        font-size: 14px;
+        color: aliceblue;
+    }
+}
+
+
+
+.vishal{
+   left: 0px;
+   width: 100%;
+   position: relative;
+   left: 0px;
+   height: 100%;
+   align-items: center;
+   justify-content: center;
+}
+
+.vishal img{
+    height: 100%;
+    width: auto;
+}
+.vishal-2{
+    /* display: none;
+    position: initial; */
+    position: relative;
+    width: 100%;
+    height: 100%;
+    right: 0px;
+    /* top: 320%; */
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* margin: 0px 30px 30px 0px; */
+}
+
+.rowo-4{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+
+
+@media (max-width:768px) {
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        height: 270px;
+        width: 95%;
+    }
+
+}
+
+@media (max-width:450px) {
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        height: 270px;
+        width: 95%;
+    }
+
+}
